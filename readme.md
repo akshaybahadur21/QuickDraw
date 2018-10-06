@@ -1,12 +1,5 @@
-## FaceEncoder
-This code helps to undertand the concept of Autoencoders. The autoencoder is trained on my facial dataset and it learns encoding of 1024 units from an input of 7500 pixels. This is a two step procedure.
-1) Encoder - which learns embedding from the input dimensions.
-2) Decoder - which recreates the image from the embedding created by the encoder.
-
-#### Types of Autoencoders used
-1) Simple Network
-2) Deep Network
-3) Convolutional Network
+## Quick, Draw
+Can a neural network learn to recognize doodling?
 
 ### Code Requirements
 You can install Conda for python which resolves all the dependencies for machine learning.
@@ -14,27 +7,44 @@ You can install Conda for python which resolves all the dependencies for machine
 ##### pip install requirements.txt
 
 ### Description
-An autoencoder is a type of artificial neural network used to learn efficient data codings in an unsupervised manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction. Recently, the autoencoder concept has become more widely used for learning generative models of data.
+Quick, Draw! is an online game developed by Google that challenges players to draw a picture of an object or idea and then uses a neural network artificial intelligence to guess what the drawings represent. The AI learns from each drawing, increasing its ability to guess correctly in the future.The game is similar to Pictionary in that the player only has a limited time to draw (20 seconds).The concepts that it guesses can be simple, like 'foot', or more complicated, like 'animal migration'. This game is one of many simple games created by Google that are AI based as part of a project known as 'A.I. Experiments'. [Quick, Draw] (https://quickdraw.withgoogle.com/)
 
 ### Dataset
-Creating our own dataset
+Follow the documentation [here] (https://github.com/googlecreativelab/quickdraw-dataset) to get the dataset. I got `.npy` files from google cloud for 14 drawings.
+
+##### Labels
+1) Apple :apple:
+2) Bowtie :bowtie:
+3) Candle 🕯️
+4) Door :door:
+5) Envelope :envelope:
+6) Fish :fish:
+6) Guitar :guitar:
+7) Ice Cream :icecream:
+8) Lightning
+9) Moon :first_quarter_moon_with_face:
+10) Mountain :mount_fuji:
+11) Star :star:
+12) Tent :tent:
+13) Toothbrush
+14) Wristwatch :watch:
 
 ### Python  Implementation
 
-1) Network Used- Simple Network, Deep Network, Convolutional Network
-2) Technique - Autoencoders
+1) Network Used- Convolutional Neural Network
 
 If you face any problem, kindly raise an issue
 
 ### Procedure
 
-1) First run `LoadData.py` which will load the images from folder `1` (you can change the name) and store it into a pickle file.
-2) Now, run `FaceCoder.py` which will train a simple, deep and a convolutional autoencoder and store it in h5 file.
-2) Now you need to have the data, run `FaceApp.py` which will use dlib library to get your face, encodes it and then decodes it to display the image.
-3) For altering the model, check `FaceCoder.py`.
-4) For tensorboard visualization, go to the specific log directory and run this command ` tensorboard --logdir=.` You can go to `localhost:6006` for visualizing your loss function.
+1) Get the dataset as mentioned above and place the `.npy` files in `/data` folder.
+2) First, run `LoadData.py` which will load the data from the `/data` folder and store the features and labels in  pickel files.
+3) Now you need to have the data, run `QD_trainer.py` which will load data from pickle and augment it. After this, the training process begins.
+2) Now you need to have the data, run `QuickDrawApp.py` which will use use the webcam to get what you have drawn.
+3) For altering the model, check `QD_trainer.py`.
+4) For tensorboard visualization, go to the specific log directory and run this command ` tensorboard --logdir=.` You can go to `localhost:6006` for visualizing your loss function and accuracy.
 
-<img src="https://github.com/akshaybahadur21/FaceEncoder/blob/master/faceEnc.gif">
+<img src="https://github.com/akshaybahadur21/QuickDraw/blob/master/qd.gif">
 
 ### References:
  
