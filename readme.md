@@ -1,5 +1,5 @@
-## Quick, Draw
-Can a neural network learn to recognize doodling?
+## Quick, [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0000)](https://github.com/akshaybahadur21/Emojinator/blob/master/LICENSE.md)  [![](https://img.shields.io/badge/Akshay-Bahadur-brightgreen.svg?colorB=ff0000)](https://akshaybahadur.com)
+Can a neural network learn to recognize doodling? [Quick, Draw](https://quickdraw.withgoogle.com/)
 
 ### Code Requirements
 You can install Conda for python which resolves all the dependencies for machine learning.
@@ -7,26 +7,26 @@ You can install Conda for python which resolves all the dependencies for machine
 ##### pip install requirements.txt
 
 ### Description
-Quick, Draw! is an online game developed by Google that challenges players to draw a picture of an object or idea and then uses a neural network artificial intelligence to guess what the drawings represent. The AI learns from each drawing, increasing its ability to guess correctly in the future.The game is similar to Pictionary in that the player only has a limited time to draw (20 seconds).The concepts that it guesses can be simple, like 'foot', or more complicated, like 'animal migration'. This game is one of many simple games created by Google that are AI based as part of a project known as 'A.I. Experiments'. [Quick, Draw] (https://quickdraw.withgoogle.com/)
+Quick, Draw! is an online game developed by Google that challenges players to draw a picture of an object or idea and then uses a neural network artificial intelligence to guess what the drawings represent. The AI learns from each drawing, increasing its ability to guess correctly in the future.The game is similar to Pictionary in that the player only has a limited time to draw (20 seconds).The concepts that it guesses can be simple, like 'foot', or more complicated, like 'animal migration'. This game is one of many simple games created by Google that are AI based as part of a project known as 'A.I. Experiments'. [Quick, Draw](https://quickdraw.withgoogle.com/)
 
 ### Dataset
-Follow the documentation [here] (https://github.com/googlecreativelab/quickdraw-dataset) to get the dataset. I got `.npy` files from google cloud for 14 drawings.
+Follow the documentation [here](https://github.com/googlecreativelab/quickdraw-dataset) to get the dataset. I got `.npy` files from google cloud for 14 drawings.
 
 ##### Labels
 1) Apple :apple:
-2) Bowtie :bowtie:
+2) Bowtie 🎀	
 3) Candle 🕯️
 4) Door :door:
 5) Envelope :envelope:
 6) Fish :fish:
 6) Guitar :guitar:
 7) Ice Cream :icecream:
-8) Lightning
+8) Lightning ⚡
 9) Moon :first_quarter_moon_with_face:
 10) Mountain :mount_fuji:
 11) Star :star:
 12) Tent :tent:
-13) Toothbrush
+13) Toothbrush 🧹
 14) Wristwatch :watch:
 
 ### Python  Implementation
