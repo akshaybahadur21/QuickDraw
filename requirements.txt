@@ -1,7 +1,8 @@
 numpy
 matplotlib
-cv2
+pillow
+opencv-python
 keras
 pandas
 h5py
-scipy
+scip
