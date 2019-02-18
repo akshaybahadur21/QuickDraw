@@ -52,7 +52,7 @@ def main():
                 blur1 = cv2.GaussianBlur(blur1, (5, 5), 0)
                 thresh1 = cv2.threshold(blur1, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
                 blackboard_cnts = cv2.findContours(thresh1.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)[1]
-                if len(blackboard_cnts) >= 1:
+                if list.__len__(blackboard_cnts) >= 1: 
                     cnt = max(blackboard_cnts, key=cv2.contourArea)
                     print(cv2.contourArea(cnt))
                     if cv2.contourArea(cnt) > 2000:
