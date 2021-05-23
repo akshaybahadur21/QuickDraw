@@ -53,7 +53,7 @@ See the pull request [here](https://github.com/googlecreativelab/quickdraw-datas
 ## Execution 🐉
 
 ```
-python3 QuickDraw.py
+python3 QuickDrawApp.py
 ```
 
 ## Results 📊
