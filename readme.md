@@ -6,7 +6,7 @@ Can a neural network learn to recognize doodling? [Quick, Draw](https://quickdra
 ### Code Requirements 🦄
 You can install Conda for python which resolves all the dependencies for machine learning.
 
-##### pip install requirements.txt
+##### pip install -r requirements.txt
 
 ### Description 👨‍🎨
 Quick, Draw! is an online game developed by Google that challenges players to draw a picture of an object or idea and then uses a neural network artificial intelligence to guess what the drawings represent. The AI learns from each drawing, increasing its ability to guess correctly in the future.The game is similar to Pictionary in that the player only has a limited time to draw (20 seconds).The concepts that it guesses can be simple, like 'foot', or more complicated, like 'animal migration'. This game is one of many simple games created by Google that are AI based as part of a project known as 'A.I. Experiments'. [Quick, Draw](https://quickdraw.withgoogle.com/)
