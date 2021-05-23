@@ -1,6 +1,6 @@
 numpy
 matplotlib
-cv2
+opencv-python
 keras
 pandas
 h5py
