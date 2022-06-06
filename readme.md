@@ -59,6 +59,8 @@ python3 QuickDrawApp.py
 ## Results 📊
 <img src="https://github.com/akshaybahadur21/BLOB/blob/master/qd.gif">
 
+###### Made with ❤️ and 🦙 by Akshay Bahadur
+
 ## References: 🔱
  
  - [Google's Quick, Draw](https://quickdraw.withgoogle.com/) 
