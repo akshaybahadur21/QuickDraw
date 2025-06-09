@@ -61,13 +61,21 @@ python3 QuickDrawApp.py
 
 ###### Made with ❤️ and 🦙 by Akshay Bahadur
 
+## 📌 Cite Us
+
+To cite this guide, use the below format:
+```
+@article{QuickDraw,
+author = {Bahadur, Akshay},
+journal = {https://github.com/akshaybahadur21/QuickDraw},
+month = {01},
+title = {{QuickDraw}},
+year = {2018}
+}
+```
+
 ## References: 🔱
  
  - [Google's Quick, Draw](https://quickdraw.withgoogle.com/) 
  - [The Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset)
  - [Quick Draw: the world’s largest doodle dataset](https://towardsdatascience.com/quick-draw-the-worlds-largest-doodle-dataset-823c22ffce6b)
-
-
-
-
-
